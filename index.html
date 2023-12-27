@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beranda - Official | FSP FARKES PUK TNF</title>
+    <link rel="shortcut icon" href="img/logo-farkes-150x150.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!--/font-->
+    <style>
+      body {
+        padding-top: 80px;
+        font-family: 'Poppins', sans-serif;
+      }
+      nav{
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+      }
+      nav .nav-link{
+        color: white;
+      }
+      nav .nav-link:hover{
+        color: yellowgreen;
+      }
+      footer{
+        .col-sm-4 h3{
+          font-weight: 600;
+          font-size: 20px;
+        }
+        .col-sm-4>ul>li>a{
+          color: white;
+          text-decoration: none;
+        }
+        .col-sm-4>ul>li>a:hover{
+          color:yellowgreen;
+          text-decoration: none;
+        }
+        .col-sm-4>ul>li{
+          list-style: none;
+          font-size: 14px;
+          padding: 5px;
+        }
+        .col-sm-4>.listinfo>li>a::before{
+          content: ">";
+          font-family: 'Poppins', sans-serif;
+          font-size: 12px;
+          color: #F08200;
+          margin-right: 10px;
+        }
+        .col-sm-4>ul>li>i{
+          font-size: 15px !important;
+          color: #F08200 !important;
+          margin-right: 10px !important;
+        }
+        .social.circle li a{
+          display: block;
+          width: 30px;
+          height: 30px;
+          font-size: 14px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 30px;
+          color: #FFFFFF;
+          background-color: #1D67AF;
+          padding-top: 2px;
+          padding-left: 1px;
+        }
+        .social>li{
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 5px;
+        }
+        .social>li>a{
+          margin-right: 10px;
+        }
+        .social a{
+          float: left;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        body {
+          padding-top: 50px;
+        }
+        .carousel{
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!--navbar-->
+      <nav class="navbar fixed-top navbar-expand-lg mb-5" style="background-color: #800000;">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/cropped-logo_farkes.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tentang Kami </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#sejarah">Sejarah</a></li>
+                  <li><a class="dropdown-item" href="#visimisi">Visi dan Misi</a></li>
+                  <li><a class="dropdown-item" href="#galeri">Galeri</a></li>
+                  <li><a class="dropdown-item" href="#agenda">Agenda</a></li>
+                  <li><a class="dropdown-item" href="#contact">Kontak Kami</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#berita">Berita</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Masuk</a>
+              </li>
+              <form class="container-fluid justify-content-start">
+                <a href=""><button class="btn btn-outline-light me-2" type="button">Daftar</button></a>
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--/navbar-->
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://placehold.co/600x250" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-dark text-start">
+            <h1>Musyawarah Farkes 2023</h1>
+            <p>Some representative placeholder content for the first slide.</p>
+            <p><button type="button" class="btn btn-primary btn-lg">Lebih Lengkap</button></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://placehold.co/600x250" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-dark">
+            <h1>Penerimaan Anggota Baru 2023</h1>
+            <p>Some representative placeholder content for the second slide.</p>
+            <p><button type="button" class="btn btn-primary btn-lg">Daftar</button></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://placehold.co/600x250" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-dark">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container">
+      <!--header-->
+      <section id="header" class="mt-sm-2 mb-sm-2">
+        <div class="row mt-4 py-5">
+          <div class="col-sm-6 d-flex justify-content-center">
+            <p><img src="img/ketua.jpg" class="img-fluid img-thumbnail justify-content-center" alt="..." /></p>
+          </div>
+          <div class="col-sm-6">
+            <h1>Sambutan Ketua Farkes</h1><hr>
+            <p>Selamat Datang di website kami, saya mewakili pengurus mengucapkan terima kasih karena telah mengunjungi situs kami. Situs ini dibuat dalam rangka sebagai media informasi baik berita, pengumuman, laporan, maupun beberapa agenda kegiatan yang dilakukan bagi para pekerja khususnya di wilayah PT. ... ... ... .  Atas perhatiannya saya ucapkan terima kasih.</p>
+          </div>
+        </div>
+      </section>
+      <!--/header-->
+      <!--about us-->
+      <section class="aboutus text-center mt-5 py-5 mt-sm-2 mb-sm-2" id="sejarah">
+        <h1 class="mt-5 pt-5">Tentang Kami</h1><hr>
+        <div class="row justify-content-center pb-5">
+          <div class="col-sm-6 d-flex justify-content-center">
+            <p><img src="img/ketua.jpg" class="img-fluid img-thumbnail justify-content-center" alt="..." /></p>
+          </div>
+          <div class="col-sm-6">
+            <h1>Sejarah</h1><hr>
+            <p>Berdiri tahun 2020 yang diperakarsai oleh saudara . Tujuan dari berdirinya organisasi ini adalah sebagai wadah dan penjembatan antara perusahaan dan pekerja guna tercapainya hubungan yang baik dan knerja para pekerja yang optimal.</p>
+          </div>
+        </div>
+      </section>
+      <!--/sejarah-->
+      <!--struktur-->
+      <!-- <section>
+        <div class="row justify-content-center">
+          <div class="col-sm-6" id="tree" style="width:100%; height:700px;">
+            
+          </div>
+        </div>
+      </section> -->
+      <!--/struktur-->
+      <!--visimisi-->
+      <section class="mt-5 py-5 mt-sm-2 mb-sm-2" id="visimisi">
+        <div class="row justify-content-center mt-5 py-5">
+          <div class="col-sm-6">
+            <h1 class="text-center">Visi</h1><hr>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora assumenda similique animi reprehenderit voluptatem labore et repellat officiis id provident?</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-6">
+            <h1 class="text-center">Misi</h1><hr>
+            <p class="text-center">
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aperiam?</li>
+                <li>Possimus rem optio quod ad magni quae ducimus in consequatur!</li>
+                <li>Cum itaque ullam omnis ipsum incidunt doloremque eaque vel debitis?</li>
+                <li>Accusamus ipsam impedit vel exercitationem voluptatibus alias dicta fugit repellat?</li>
+                <li>Assumenda non ullam cumque tempora repellendus sequi ut voluptatibus natus?</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--/visimisi-->
+      <!--gallery-->
+      <section id="galeri">
+        <div class="row d-flex justify-content-between text-center mt-5 py-4 mt-sm-2 mb-sm-2" id="galeri">
+          <h1 class="mt-5 py-5">Galeri</h1><hr>
+          <div class="col-sm py-4">
+            <a href="img/ketua.jpg" data-fancybox="gallery" data-caption="Caption #1"><img src="img/ketua.jpg" alt="" data-aos="flip-left"></a>
+          </div>
+          <div class="col-sm py-4">
+            <a href="img/ketua.jpg" data-fancybox="gallery" data-caption="Caption #1"><img src="img/ketua.jpg" alt="" data-aos="flip-right"></a>
+          </div>
+          <div class="col-sm py-4">
+            <a href="img/ketua.jpg" data-fancybox="gallery" data-caption="Caption #1"><img src="img/ketua.jpg" alt="" data-aos="flip-left"></a>
+          </div>
+          <div class="col-sm py-4">
+            <a href="img/ketua.jpg" data-fancybox="gallery" data-caption="Caption #1"><img src="img/ketua.jpg" alt="" data-aos="flip-right"></a>
+          </div>
+          <div class="col-sm py-4">
+            <a href="img/ketua.jpg" data-fancybox="gallery" data-caption="Caption #1"><img src="img/ketua.jpg" alt="" data-aos="flip-left"></a>
+          </div>
+          
+        </div>
+      </section>
+      <!--/gallery-->
+      <!--agenda-->
+      <section id="agenda">
+        <div class="row d-flex justify-content-between">
+          <h1 class="text-center mt-5 py-5">Agenda</h1><hr>
+          <div class="col-sm py-4">
+            <div class="card h-100">
+              <img src="img/ketua.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm py-4">
+            <div class="card h-100">
+              <img src="img/ketua.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm py-4">
+            <div class="card h-100">
+              <img src="img/ketua.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/agenda-->
+      <!--news-->
+      <section id="berita">
+        <div class="row d-flex justify-content-between">
+          <h1 class="text-center mt-5 py-5">Berita</h1><hr>
+          <div class="col-sm py-4">
+            <div class="card h-100">
+              <img src="img/ketua.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm py-4">
+            <div class="card h-100">
+              <img src="img/ketua.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm py-4">
+            <div class="card h-100">
+              <img src="img/ketua.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm py-4">
+            <div class="card h-100">
+              <img src="img/ketua.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/news-->
+      <!--contact-->
+      <section id="contact" class="mt-5 py-5 mt-sm-2 mb-sm-2">
+        <div class="row mt-5 py-5">
+          <div class="col-sm-6 d-flex justify-content-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5233476150775!2d106.92010517411349!3d-6.1944636106850615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698bfc22e5177b%3A0x51af8940e79be822!2sPasar%20Pulo%20Jahe!5e0!3m2!1sid!2sid!4v1703562524125!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-sm-6">
+            <h2>Kontak Kami</h2><hr>
+            <p><i class="icon bi bi-geo-alt-fill"></i> Jalan Perintis Kemerdekaan No. 1 Bandung 40117</p>
+            <p><i class="bi bi-telephone-fill"></i> 022-4230031</p>
+            <p><i class="bi bi-send-fill"></i> adminpuktnf@gmail.com</p>
+          </div>
+        </div>
+      </section>
+      <!--/contact-->
+    </div>
+    <!--footer-->
+    <div class="container-fluid" id="footer">
+      <footer>
+        <div class="row text-light" style="background-color: #000035;">
+          <div class="col-sm-4 py-5">
+            <ul>
+              <li><p><img src="img/cropped-logo_farkes.png" class="img-fluid justify-content-center" alt="..." /></p></li>
+              <li><h3>Kunjungi Kami</h3></li>
+            </ul>
+            <ul class="social circle">
+              <li>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-youtube"></i></a>
+                <a href=""><i class="bi bi-threads"></i></a>
+                <a href=""><i class="bi bi-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4 py-5">
+            <ul class="listinfo">
+              <li><h3>Informasi</h3></li>
+              <li><a href="">Tentang Kami</a></li>
+              <li><a href="">Publikasi</a></li>
+              <li><a href="">Struktur Organisasi</a></li>
+              <li><a href="">Download</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 py-5">
+            <ul>
+              <li><h3>Kontak Kami</h3></li>
+              <li><i class="icon bi bi-geo-alt-fill"></i>Jalan Perintis Kemerdekaan No. 1 Bandung 40117</li>
+              <li><i class="bi bi-telephone-fill"></i>022-4230031</li>
+              <li><i class="bi bi-send-fill"></i>adminpuktnf@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--/footer-->
+    <div class="container-fluid" style="background-color: #800000;">
+      <!--copyright-->
+      <div class="container">
+        <section class="copyright py-2 text-white d-flex justify-content-center" >
+          <p>© 2023 masdedys.github.io, All Rights Reserved </p>
+        </section>
+      </div>
+      <!--/copyright-->
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+      AOS.init();
+    </script>
+  </body>
+</html>
